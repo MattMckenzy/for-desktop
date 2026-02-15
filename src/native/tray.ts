@@ -25,7 +25,7 @@ export function initTray() {
   const trayIcon = createTrayIcon();
   tray = new Tray(trayIcon);
   updateTrayMenu();
-  tray.setToolTip("Stoat for Desktop");
+  tray.setToolTip("Stoat for Desktop (CTFAM)");
   tray.setImage(trayIcon);
   tray.on("click", () => {
     mainWindow.show();
@@ -36,7 +36,7 @@ export function initTray() {
 export function updateTrayMenu() {
   tray.setContextMenu(
     Menu.buildFromTemplate([
-      { label: "Stoat for Desktop", type: "normal", enabled: false },
+      { label: "Stoat for Desktop (CTFAM)", type: "normal", enabled: false },
       {
         label: "Version",
         type: "submenu",

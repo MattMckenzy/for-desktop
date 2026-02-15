@@ -13,15 +13,15 @@ export async function initDiscordRpc() {
 
     rpc.on("ready", () =>
       rpc.setActivity({
-        state: "stoat.chat",
+        state: "stoat.ctfam.ca",
         details: "Chatting with others",
         largeImageKey: "qr",
         // largeImageText: "Communication is critical – use Revolt.",
-        largeImageText: "",
+        largeImageText: "Communication is critical – use Stoat (CTFAM)",
         buttons: [
           {
-            label: "Join Stoat",
-            url: "https://stoat.chat/",
+            label: "Join Stoat (CTFAM)",
+            url: "https://stoat.ctfam.ca/",
           },
         ],
       }),
