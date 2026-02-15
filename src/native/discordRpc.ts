@@ -8,6 +8,9 @@ let rpc: Client;
 export async function initDiscordRpc() {
   if (!config.discordRpc) return;
 
+  // clean up existing client if one exists
+  rpc?.removeAllListeners();
+
   try {
     rpc = new Client({ transport: "ipc" });
 
@@ -16,7 +19,6 @@ export async function initDiscordRpc() {
         state: "stoat.ctfam.ca",
         details: "Chatting with others",
         largeImageKey: "qr",
-        // largeImageText: "Communication is critical – use Revolt.",
         largeImageText: "Communication is critical – use Stoat (CTFAM)",
         buttons: [
           {
