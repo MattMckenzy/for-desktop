@@ -1,13 +1,13 @@
 <div align="center">
 <h1>
-  Stoat for Desktop
+  Stoat for Desktop (CTFAM)
   
-  [![Stars](https://img.shields.io/github/stars/stoatchat/for-desktop?style=flat-square&logoColor=white)](https://github.com/stoatchat/for-desktop/stargazers)
-  [![Forks](https://img.shields.io/github/forks/stoatchat/for-desktop?style=flat-square&logoColor=white)](https://github.com/stoatchat/for-desktop/network/members)
-  [![Pull Requests](https://img.shields.io/github/issues-pr/stoatchat/for-desktop?style=flat-square&logoColor=white)](https://github.com/stoatchat/for-desktop/pulls)
-  [![Issues](https://img.shields.io/github/issues/stoatchat/for-desktop?style=flat-square&logoColor=white)](https://github.com/stoatchat/for-desktop/issues)
-  [![Contributors](https://img.shields.io/github/contributors/stoatchat/for-desktop?style=flat-square&logoColor=white)](https://github.com/stoatchat/for-desktop/graphs/contributors)
-  [![License](https://img.shields.io/github/license/stoatchat/for-desktop?style=flat-square&logoColor=white)](https://github.com/stoatchat/for-desktop/blob/main/LICENSE)
+  [![Stars](https://img.shields.io/github/stars/mattmckenzy/for-desktop?style=flat-square&logoColor=white)](https://github.com/mattmckenzy/for-desktop/stargazers)
+  [![Forks](https://img.shields.io/github/forks/mattmckenzy/for-desktop?style=flat-square&logoColor=white)](https://github.com/mattmckenzy/for-desktop/network/members)
+  [![Pull Requests](https://img.shields.io/github/issues-pr/mattmckenzy/for-desktop?style=flat-square&logoColor=white)](https://github.com/mattmckenzy/for-desktop/pulls)
+  [![Issues](https://img.shields.io/github/issues/mattmckenzy/for-desktop?style=flat-square&logoColor=white)](https://github.com/mattmckenzy/for-desktop/issues)
+  [![Contributors](https://img.shields.io/github/contributors/mattmckenzy/for-desktop?style=flat-square&logoColor=white)](https://github.com/mattmckenzy/for-desktop/graphs/contributors)
+  [![License](https://img.shields.io/github/license/mattmckenzy/for-desktop?style=flat-square&logoColor=white)](https://github.com/mattmckenzy/for-desktop/blob/main/LICENSE)
 </h1>
 Application for Windows, macOS, and Linux.
 </div>
@@ -29,8 +29,8 @@ Then proceed to setup:
 
 ```bash
 # clone the repository
-git clone --recursive https://github.com/stoatchat/for-desktop stoat-for-desktop
-cd stoat-for-desktop
+git clone --recursive https://github.com/mattmckenzy/for-desktop stoat-for-desktop-ctfam
+cd stoat-for-desktop-ctfam
 
 # install all packages
 pnpm i --frozen-lockfile
@@ -74,3 +74,8 @@ git -c submodule."assets".update=checkout submodule update --init assets
 ```
 
 Currently, this is required to build, any forks are expected to provide their own assets.
+
+
+### Changes for original source (stoatchat)
+
+The only changes made are those to point to my instance of stoatchat on ctfam.ca

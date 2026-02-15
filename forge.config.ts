@@ -13,9 +13,9 @@ import { FuseV1Options, FuseVersion } from "@electron/fuses";
 // import { globSync } from "node:fs";
 
 const STRINGS = {
-  author: "Revolt Platforms LTD",
-  name: "Stoat",
-  execName: "stoat-desktop",
+  author: "stoatchat, mattmckenzy",
+  name: "Stoat (CTFAM)",
+  execName: "stoat-desktop-ctfam",
   description: "Open source user-first chat platform.",
 };
 
@@ -29,7 +29,7 @@ const makers: ForgeConfig["makers"] = [
     name: STRINGS.name,
     authors: STRINGS.author,
     // todo: hoist this
-    iconUrl: `https://stoat.chat/app/assets/icon-DUSNE-Pb.ico`,
+    iconUrl: `https://stoat.ctfam.ca/assets/icon-Dt-nxoOi.ico`,
     // todo: loadingGif
     setupIcon: `${ASSET_DIR}/icon.ico`,
     description: STRINGS.description,
@@ -54,7 +54,7 @@ if (!process.env.PLATFORM) {
     // this is just for testing purposes
     new MakerFlatpak({
       options: {
-        id: "chat.stoat.stoat-desktop",
+        id: "chat.stoat.stoat-desktop-ctfam",
         description: STRINGS.description,
         productName: STRINGS.name,
         productDescription: STRINGS.description,
@@ -169,7 +169,7 @@ const config: ForgeConfig = {
   publishers: [
     new PublisherGithub({
       repository: {
-        owner: "stoatchat",
+        owner: "mattmckenzy",
         name: "for-desktop",
       },
     }),
