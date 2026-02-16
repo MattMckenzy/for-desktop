@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/MattMckenzy/for-desktop/compare/v1.3.0...v1.4.0) (2026-02-16)
+
+
+### Features
+
+* Rename project to Stoat-CTFAM ([ced189d](https://github.com/MattMckenzy/for-desktop/commit/ced189d5b5cdf156363d44610cec4ba714c621a7))
+
 ## [1.3.0](https://github.com/MattMckenzy/for-desktop/compare/v1.2.0...v1.3.0) (2026-02-16)
 
 
