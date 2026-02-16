@@ -14,7 +14,7 @@ import { FuseV1Options, FuseVersion } from "@electron/fuses";
 
 const STRINGS = {
   author: "stoatchat, mattmckenzy",
-  name: "Stoat (CTFAM)",
+  name: "Stoat-CTFAM",
   execName: "stoat-desktop-ctfam",
   description: "Open source user-first chat platform.",
 };
